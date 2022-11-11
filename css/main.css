@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@500;700&family=Source+Serif+Pro:wght@600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ background: #F2F2F2;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_section_start {
+  width: 300px;
+  height: 446px;
+background-size: 100%;
+padding: 90px 79px 44px 78px;
+  background-image: url(/image/sariqfon.png);
+  background-repeat: no-repeat;
+  border-radius: 21.25px 0px 0px 21.25px;
+
+}
+
+.main_section_title {
+  width: 170px;
+  height: 21px;
+  margin-top: 44px;
+  font-family: "Raleway";
+ 
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #383838;
+}
+
+.main_section_desc {
+ width: 175.84px;
+height: 27.62px;
+margin-top: 10px;
+font-family: 'Raleway';
+font-weight: 300;
+font-size: 11px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #383838;
+}
+
+.logo_strelka{
+    padding: 42px;
+   
+}
+
+.instagram_password_box{
+  width: 580px;
+height: 446px;
+
+
+background: #FFFFFF;
+border-radius: 0px 21.25px 21.25px 0px;
+}
+.password_input_start{
+width: 300.44px;
+height: 36.48px;
+left: 0px;
+top: 0px;
+margin-left: 80px;
+padding-left: 15px;
+
+background: rgba(245, 248, 249, 0.3);
+border: 0.586985px solid #CAD7DD;
+border-radius: 2.64604px;
+background: #F5F8F9;
+border-radius: 2.64604px;
+border: none;
+}
+.pasword_title_wraper{
+  display: flex;
+  margin-top: 53px;
+  align-items: center;
+}
+.password_title{
+  margin-left: 70px;
+}
+.gender_title_box{
+  display: flex;
+  margin-top: 18px;
+  
+}
+.gender_title{
+    margin-left: 70px;
+    
+}
+.male{
+width: 40.2px;
+height: 9px;
+
+color: #B1BFCD;
+}
+.famele{
+
+color: #B1BFCD;
+
+}
+
+input{
+  margin-left: 68px;
+  appearance: none;
+
+}
+.input-date{
+  width: 300.44px;
+height: 36.48px;
+left: 0px;
+top: 0px;
+margin-left: 28px;
+padding-left: 15px;
+
+background: rgba(245, 248, 249, 0.3);
+border: 0.586985px solid #CAD7DD;
+border-radius: 2.64604px;
+background: #F5F8F9;
+border-radius: 2.64604px;
+border: none;
+}
+
+.label-input-date{
+   margin-left: 70px;
+
+}
+
+.input-box{
+    margin-top: 18px;
+}
+
+.email{
+
+  width: 300.44px;
+height: 36.48px;
+left: 0px;
+top: 0px;
+margin-left: 74px;
+padding-left: 15px;
+
+background: rgba(245, 248, 249, 0.3);
+border: 0.586985px solid #CAD7DD;
+border-radius: 2.64604px;
+background: #F5F8F9;
+border-radius: 2.64604px;
+border: none;
+}
+.input-date-email{
+  margin-left: 68px;
+}
+
+.mobil{
+
+  width: 300.44px;
+height: 36.48px;
+left: 0px;
+top: 0px;
+margin-left: 74px;
+padding-left: 15px;
+
+background: rgba(245, 248, 249, 0.3);
+border: 0.586985px solid #CAD7DD;
+border-radius: 2.64604px;
+background: #F5F8F9;
+border-radius: 2.64604px;
+border: none;
+}
+.input_mobil{
+  margin-left: 68px;
+}
+
+
+.id{
+
+  width: 300.44px;
+height: 36.48px;
+left: 0px;
+top: 0px;
+margin-left: 38px;
+padding-left: 15px;
+
+background: rgba(245, 248, 249, 0.3);
+border: 0.586985px solid #CAD7DD;
+border-radius: 2.64604px;
+background: #F5F8F9;
+border-radius: 2.64604px;
+border: none;
+}
+.input_id{
+  margin-left: 60px;
+}
+
+
+.input_foto{
+  margin-top: 12px;
+}
+
+.buttom_box{
+  display: flex;
+  margin-top: 25px;
+  margin-left: 160px;
+
+}
+.buttom_cancel{
+  width: 109px;
+  height: 36px;
+margin-left: 20px;
+background: #F5F8F9;
+border-radius: 2.64604px;
+
+border: none;
+}
+
+.buttom_save{
+  width: 109px;
+  height: 36px;
+
+background: #F5F8F9;
+border-radius: 2.64604px;
+border: none;
+}
+.buttom_save:hover{
+  background-color: rgb(51, 134, 197);
+
+}
+.buttom_cancel:hover{
+  background-color: rgb(51, 134, 197);
+  
+}
